@@ -1,0 +1,12 @@
+<launch>
+<!--turtlebot gazebo-->
+<include file="/home/ulrich/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/launch/turtlebot_world.launch"/>
+<!--ekf-->
+<include file="/home/ulrich/catkin_ws/src/robot_pose_ekf/robot_pose_ekf.launch"/>
+<!--odom to trajectory-->
+<include file="/home/ulrich/catkin_ws/src/odom_to_trajectory/launch/create_trajectory.launch"/>
+<!-- turtlebot teleop -->
+<include file="/home/ulrich/catkin_ws/src/turtlebot/turtlebot_teleop/launch/keyboard_teleop.launch"/>
+<!--Rviz-->
+<node pkg="rviz" type="rviz" name= "rviz" args="-d /home/ulrich/catkin_ws/src/EKFLab.rviz"/>
+</launch>
