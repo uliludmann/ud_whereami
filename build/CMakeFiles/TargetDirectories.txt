@@ -76,6 +76,13 @@
 /home/ulrich/catkin_ws/build/turtlebot_simulator/turtlebot_stdr/CMakeFiles/install/local.dir
 /home/ulrich/catkin_ws/build/turtlebot_simulator/turtlebot_stdr/CMakeFiles/test.dir
 /home/ulrich/catkin_ws/build/turtlebot_simulator/turtlebot_stdr/CMakeFiles/edit_cache.dir
+/home/ulrich/catkin_ws/build/udacity_bot/CMakeFiles/list_install_components.dir
+/home/ulrich/catkin_ws/build/udacity_bot/CMakeFiles/install.dir
+/home/ulrich/catkin_ws/build/udacity_bot/CMakeFiles/rebuild_cache.dir
+/home/ulrich/catkin_ws/build/udacity_bot/CMakeFiles/install/strip.dir
+/home/ulrich/catkin_ws/build/udacity_bot/CMakeFiles/install/local.dir
+/home/ulrich/catkin_ws/build/udacity_bot/CMakeFiles/test.dir
+/home/ulrich/catkin_ws/build/udacity_bot/CMakeFiles/edit_cache.dir
 /home/ulrich/catkin_ws/build/odom_to_trajectory/CMakeFiles/install.dir
 /home/ulrich/catkin_ws/build/odom_to_trajectory/CMakeFiles/install/local.dir
 /home/ulrich/catkin_ws/build/odom_to_trajectory/CMakeFiles/list_install_components.dir
