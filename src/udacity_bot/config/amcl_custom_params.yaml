@@ -1,6 +1,6 @@
 min_particles: 10
 max_particles: 1000
-transform_tolerance: 0.8
+transform_tolerance: 0.2
 
 laser_min_range: 20
 laser_max_range: 500
