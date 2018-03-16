@@ -8,6 +8,10 @@ laser_max_range: 500
 initialpose: [0.0, 0.0, 0.0]
 
 
-
+odom_alpha1: 0.5  
+odom_alpha2: 0.5
+odom_alpha3: 0.5
+odom_alpha4: 0.5
+odom_alpha5: 0.5
 
 footprint: [[0.2, 0.0], [0.0,0.2], [0.0, -0.2]]
