@@ -5,5 +5,9 @@ transform_tolerance: 0.2
 laser_min_range: 20
 laser_max_range: 500
 
+initialpose: [0.0, 0.0, 0.0]
 
 
+
+
+footprint: [[0.2, 0.0], [0.0,0.2], [0.0, -0.2]]
