@@ -1,15 +1,15 @@
-min_particles: 10
-max_particles: 1000
-transform_tolerance: 0.2
+min_particles: 400
+max_particles: 600
+transform_tolerance: 0.5
 
-laser_min_range: 20
-laser_max_range: 500
+laser_min_range: 0.5
+laser_max_range: 5
 
 initialpose: [0.0, 0.0, 0.0]
 
 
-odom_alpha1: 0.5  
-odom_alpha2: 0.5
+odom_alpha1: 0.7
+odom_alpha2: 0.7
 odom_alpha3: 0.5
 odom_alpha4: 0.5
 odom_alpha5: 0.5
