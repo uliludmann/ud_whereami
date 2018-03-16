@@ -5,7 +5,9 @@ raytrace_range: 3.0
 
 transform_tolerance: 0.05
 
-inflation_radius: 3.0
+inflation_radius: 0.3
 observation_sources: laser_scan_sensor
+
+footprin: [[0.2, 0.0], [0.0,0.2], [0.0, -0.2], [0.2, 0.2]]
 
 laser_scan_sensor: {sensor_frame: hokuyo, data_type: LaserScan, topic: /udacity_bot/laser/scan, marking: true, clearing: true}
