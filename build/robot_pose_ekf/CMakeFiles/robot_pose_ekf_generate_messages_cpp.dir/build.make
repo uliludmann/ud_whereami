@@ -61,7 +61,7 @@ robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp: /home/ulrich/cat
 /home/ulrich/catkin_ws/devel/include/robot_pose_ekf/GetStatus.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ulrich/catkin_ws/devel/include/robot_pose_ekf/GetStatus.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ulrich/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from robot_pose_ekf/GetStatus.srv"
-	cd /home/ulrich/catkin_ws/build/robot_pose_ekf && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ulrich/catkin_ws/src/robot_pose_ekf/srv/GetStatus.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p robot_pose_ekf -o /home/ulrich/catkin_ws/devel/include/robot_pose_ekf -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ulrich/catkin_ws/src/robot_pose_ekf && /home/ulrich/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ulrich/catkin_ws/src/robot_pose_ekf/srv/GetStatus.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p robot_pose_ekf -o /home/ulrich/catkin_ws/devel/include/robot_pose_ekf -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 robot_pose_ekf_generate_messages_cpp: robot_pose_ekf/CMakeFiles/robot_pose_ekf_generate_messages_cpp
 robot_pose_ekf_generate_messages_cpp: /home/ulrich/catkin_ws/devel/include/robot_pose_ekf/GetStatus.h

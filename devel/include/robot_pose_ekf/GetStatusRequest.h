@@ -36,6 +36,7 @@ struct GetStatusRequest_
 
 
 
+
   typedef boost::shared_ptr< ::robot_pose_ekf::GetStatusRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::robot_pose_ekf::GetStatusRequest_<ContainerAllocator> const> ConstPtr;
 

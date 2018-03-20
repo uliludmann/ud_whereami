@@ -120,7 +120,7 @@ test_robot_pose_ekf_EXTERNAL_OBJECTS =
 /home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: gtest/libgtest.so
+/home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: gtest/gtest/libgtest.so
 /home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: /opt/ros/kinetic/lib/libtf.so
 /home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: /opt/ros/kinetic/lib/libtf2_ros.so
 /home/ulrich/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf: /opt/ros/kinetic/lib/libactionlib.so
