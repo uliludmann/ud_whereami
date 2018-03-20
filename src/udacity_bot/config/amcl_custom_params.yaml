@@ -1,23 +1,33 @@
-min_particles: 650
-max_particles: 4000
-transform_tolerance: 0.8
+min_particles: 100
+max_particles: 2000
+kld_err: 0.05
 
-kld_err: 0.3
-kld_z: 0.96
+update_min_d: 0.2
+update_min_a: 0.2
+resample_interval: 2
+transform_tolerance: 0.12
 
-laser_min_range: 0.5
-laser_max_range: 5
-laser_max_beams: 73
+beam_skip_distance: 0.2
+beam_skip_threshold: 0.05
 
-laser_sigma_hit: 1.4
+gui_publish_rate: 10
+save_pose_rate: 1
 
-initialpose: [0.0, 0.0, 0.0]
+laser_min_range: 0.1
+laser_max_range: 12
 
+laser_max_beams: 60
 
-odom_alpha1: 0.3
-odom_alpha2: 0.5
-odom_alpha3: 0.3
-odom_alpha4: 0.3
-odom_alpha5: 0.3
+laser_z_hit: 0.9
+laser_z_short: 0.05
+laser_z_max: 0.005
+laser_z_rand: 0.2
+laser_sigma_hit: 0.2
+laser_lambda_short: 0.1
+laser_model_type: likelihood_field
 
-footprint: [[0.2, 0.0], [0.0,0.2], [0.0, -0.2]]
+odom_alpha1: 0.03
+odom_alpha2: 0.03
+odom_alpha3: 0.03
+odom_alpha4: 0.03
+odom_alpha5: 0.03
